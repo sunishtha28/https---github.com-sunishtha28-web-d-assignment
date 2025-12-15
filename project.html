@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doubtnut Clone</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+    }
+
+    /* Navbar */
+    header {
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #ff6a00;
+      font-size: 28px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #ff6a00;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 40px;
+      background-color: #fff3e8;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h2 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .hero-text button {
+      padding: 12px 25px;
+      background-color: #ff6a00;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .hero-text button:hover {
+      background-color: #e55d00;
+    }
+
+    .hero-image {
+      font-size: 120px;
+    }
+
+    /* Features Section */
+    .features {
+      padding: 50px 40px;
+      text-align: center;
+    }
+
+    .features h2 {
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+
+    .feature-box {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+    .box {
+      background-color: white;
+      padding: 30px;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .box h3 {
+      margin-bottom: 10px;
+      color: #ff6a00;
+    }
+
+    .box p {
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .feature-box {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h1>doubtnut</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Courses</a>
+      <a href="#">Ask Doubt</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Solve your doubts instantly</h2>
+      <p>Get step-by-step video solutions from India's best teachers</p>
+      <button>Ask Your Doubt</button>
+    </div>
+    <div class="hero-image">📚</div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <h2>Why Doubtnut?</h2>
+    <div class="feature-box">
+      <div class="box">
+        <h3>Instant Solutions</h3>
+        <p>Get fast video explanations for your questions.</p>
+      </div>
+      <div class="box">
+        <h3>Trusted Teachers</h3>
+        <p>Learn from India's top educators.</p>
+      </div>
+      <div class="box">
+        <h3>Free Learning</h3>
+        <p>Access thousands of solutions at no cost.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Doubtnut Clone | For Educational Purpose Only</p>
+  </footer>
+
+</body>
+</html>
